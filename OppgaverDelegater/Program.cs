@@ -12,7 +12,7 @@ Functions.PrintMessages(["Dette er", "et sett", "med stringer."]);
 Functions.PrintSum(7, 10);
 Functions.PrintResultMessage(true, "Trying to send message.");
 Functions.PrintSumOfThreeNumbers(2, 5, 88).Dump();
-Functions.DoubleNumber(5).Dump();
+Functions.PrintDoubleNumber(5).Dump();
 
 Console.WriteLine("\nLambda Uttrykk:");
 Lambdas.PrintNumberLamda(55);
@@ -28,4 +28,4 @@ printSum(3, 7);
 Lambdas.PrintResultMessageLambda(false, "Trying to send message.");
 Action<int, int, int> printSumOfThreeNumbers = (num1, num2, num3) => Console.WriteLine($"Sum av de 3 tall: {num1+num2+num3}");
 printSumOfThreeNumbers(1, 3, 14);
-Lambdas.DoubleNumber(7).Dump();
+Lambdas.PrintDoubleNumber(7).Dump();

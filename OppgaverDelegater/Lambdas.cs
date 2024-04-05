@@ -2,7 +2,7 @@
 
 namespace OppgaverDelegater;
 
-public class Lambdas
+public static class Lambdas
 {
     // PrintNumber
     public static void PrintNumberLamda(int num) => Console.WriteLine(num);
@@ -26,5 +26,5 @@ public class Lambdas
     public static void PrintResultMessageLambda(bool result, string message) => Console.WriteLine(result ? $"Success: {message}" : $"Failed: {message}");
     
     // DoubleNumber
-    public static int DoubleNumber(int num) => num * 2;
+    public static int PrintDoubleNumber(int num) => num * 2;
 }

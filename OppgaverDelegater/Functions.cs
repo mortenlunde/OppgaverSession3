@@ -2,7 +2,7 @@
 
 namespace OppgaverDelegater;
 
-public class Functions
+public static class Functions
 {
     // PrintNumber
     public static void PrintNumber(int num)
@@ -41,6 +41,7 @@ public class Functions
         {
             Console.Write(number + " ");
         }
+        Console.WriteLine("");
     }
     
     // PrintMessages
@@ -50,6 +51,7 @@ public class Functions
         {
             Console.Write(msg + " ");
         }
+        Console.WriteLine("");
     }
     
     // PrintSum
@@ -78,7 +80,7 @@ public class Functions
     }
     
     // DoubleNumber
-    public static int DoubleNumber(int num)
+    public static int PrintDoubleNumber(int num)
     {
         return num * 2;
     }
