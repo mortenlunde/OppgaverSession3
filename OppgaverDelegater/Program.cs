@@ -29,3 +29,4 @@ Lambdas.PrintResultMessageLambda(false, "Trying to send message.");
 Action<int, int, int> printSumOfThreeNumbers = (num1, num2, num3) => Console.WriteLine($"Sum av de 3 tall: {num1+num2+num3}");
 printSumOfThreeNumbers(1, 3, 14);
 Lambdas.DoubleNumber(7).Dump();
+//test
