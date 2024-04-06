@@ -12,7 +12,7 @@ Functions.PrintMessages(["Dette er", "et sett", "med stringer."]);
 Functions.PrintSum(7, 10);
 Functions.PrintResultMessage(true, "Trying to send message.");
 Functions.PrintSumOfThreeNumbers(2, 5, 88).Dump();
-Functions.DoubleNumber(5).Dump();
+Functions.PrintDoubleNumber(5).Dump();
 Functions.CountCharacter("Hei hei!");
 Functions.AddNumbers(2, 7).Dump();
 Functions.NegateValue(false).Dump();
