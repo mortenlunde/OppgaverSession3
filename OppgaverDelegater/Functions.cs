@@ -82,4 +82,70 @@ public class Functions
     {
         return num * 2;
     }
+    
+    // CountCharacter
+    public static void CountCharacter(string txt)
+    {
+        int chars = txt.Count(c => char.IsLetter(c));
+        Console.WriteLine($"Antall bokstaver i teksten: {chars}\n{txt}");
+    }
+    
+    // AddNumbers
+    public static double AddNumbers(double num1, double num2)
+    {
+        return num1 + num2;
+    }
+    
+    // NegateValue
+    public static bool NegateValue(bool value)
+    {
+        return !value;
+    }
+    
+    // SumNumbers
+    public static int SumNumbers(int[] numbers)
+    {
+        int sum = 0;
+        foreach (int number in numbers)
+        {
+            sum += number;
+        }
+        return sum;
+    }
+    
+    //ConcentrateStrings
+    public static string ConcentrateStrings(string[] strings)
+    {
+        string txt = string.Empty;
+        foreach (string s in strings)
+        {
+            txt += s + " ";
+        }
+
+        return txt;
+    }
+    
+    // MultiplyNumbers
+    public static int MultiplyNumbers(int num1, int num2)
+    {
+        return num1 * num2;
+    }
+    
+    // CombineStrings
+    public static void CombineStrings(string str1, string str2)
+    {
+        (str1 + str2).Dump(typeRenderingConfig: new TypeRenderingConfig {QuoteStringValues = false});
+    }
+    
+    // FormatData
+    public static string FormatData(int id, string name)
+    {
+        return "ID: " + id + ", Name: " + name;
+    }
+    
+    // IsGreaterThan
+    public static bool IsGreaterThan(int num1, int num2)
+    {
+        return num1 > num2;
+    }
 }

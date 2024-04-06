@@ -27,4 +27,15 @@ public class Lambdas
     
     // DoubleNumber
     public static int DoubleNumber(int num) => num * 2;
+    
+    // CountCharacter
+    public static void CountCharacter(string txt) => Console.WriteLine($"Antall bokstaver i teksten: {txt.Count(char.IsLetter)}\n{txt}");
+    
+    // AddNumbers
+    public static double AddNumbers(double num1, double num2) => num1 + num2;
+    
+    // SumNumbers
+    public static int SumNumbers(IEnumerable<int> numbers, int sum = 0) => sum + numbers.Sum();
+
+    public static string FormatData(int id, string name) => $"ID: {id}, Name: {name}";
 }
