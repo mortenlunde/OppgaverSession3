@@ -2,7 +2,7 @@
 
 namespace OppgaverDelegater;
 
-public class Lambdas
+public static class Lambdas
 {
     // PrintNumber
     public static void PrintNumberLamda(int num) => Console.WriteLine(num);

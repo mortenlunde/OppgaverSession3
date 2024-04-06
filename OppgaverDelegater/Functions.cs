@@ -88,7 +88,7 @@ public static class Functions
     // CountCharacter
     public static void CountCharacter(string txt)
     {
-        int chars = txt.Count(c => char.IsLetter(c));
+        int chars = txt.Count(char.IsLetter);
         Console.WriteLine($"Antall bokstaver i teksten: {chars}\n{txt}");
     }
     

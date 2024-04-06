@@ -27,7 +27,7 @@ Console.WriteLine("\nLambda Uttrykk:");
 Lambdas.PrintNumberLamda(55);
 Lambdas.PrintMessageLamda("Hello Lamda-World!");
 Lambdas.PrintResultLambda(false);
-Action<double> printDouble = (number) => Console.WriteLine(number);
+Action<double> printDouble = Console.WriteLine;
 printDouble(1.5);
 Lambdas.PrintDataLambda(5, "Ditt nøye utvalgte tall er");
 Lambdas.PrintNumbersLambda([1,3, 5, 7, 9]);
