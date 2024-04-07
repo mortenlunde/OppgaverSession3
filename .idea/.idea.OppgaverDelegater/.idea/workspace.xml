@@ -8,23 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f442176b-b777-48e6-ae42-9e1c2139fc31" name="Changes" comment="edited one functionname">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OppgaverSession3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OppgaverSession3/.idea/dictionaries/Morte.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OppgaverSession3/.idea/dictionaries/mortenlunde.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OppgaverSession3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OppgaverSession3/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OppgaverSession3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OppgaverLambdaExpression/OppgaverLambdaExpression.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OppgaverLambdaExpression/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OppgaverSession3.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/dictionaries/Morte.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/dictionaries/mortenlunde.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OppgaverDelegater.sln" beforeDir="false" afterPath="$PROJECT_DIR$/OppgaverSession3.sln" afterDir="false" />
+    <list default="true" id="f442176b-b777-48e6-ae42-9e1c2139fc31" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OppgaverDelegater/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OppgaverLambdaExpression/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OppgaverLambdaExpression/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +45,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8beb7ded701c8320d7c35f4e65264c40b4d43d3eba7168b626d9733c049e261/TraceTextWriter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de3e3e19dfb178249a7dcb391b9e7ead6b818de454c21611fa8c8181e2363/DumpConfig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Morte/RiderProjects/OppgaverDelegater/OppgaverDelegater/Functions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Morte/RiderProjects/OppgaverDelegater/OppgaverDelegater/Functions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Morte/RiderProjects/OppgaverDelegater/OppgaverDelegater/Lambdas.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Morte/RiderProjects/OppgaverDelegater/OppgaverDelegater/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Morte/RiderProjects/OppgaverDelegater/OppgaverDelegater/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiProvider">{}</component>
@@ -77,6 +66,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;.NET Project.OppgaverDelegater.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Project.OppgaverLambdaExpression.executor&quot;: &quot;Run&quot;,
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -99,7 +89,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.OppgaverLambdaExpression">
+  <component name="RunManager" selected=".NET Project.OppgaverDelegater">
     <configuration name="OppgaverDelegater" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -148,7 +138,7 @@
       <workItem from="1712343359979" duration="1501000" />
       <workItem from="1712344900146" duration="1273000" />
       <workItem from="1712346210024" duration="5835000" />
-      <workItem from="1712439821640" duration="6311000" />
+      <workItem from="1712439821640" duration="6872000" />
     </task>
     <task id="LOCAL−00001" summary="init OppgaverDelegater">
       <option name="closed" value="true" />
@@ -178,7 +168,21 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1712445723636</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Updated with new solution name, added 2nd project">
+      <option name="closed" value="true" />
+      <created>1712446573539</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1712446573539</updated>
+    </task>
+    <task id="LOCAL−00006" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1712446753166</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1712446753166</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +208,8 @@
     <MESSAGE value="removed //test" />
     <MESSAGE value="added final tasks" />
     <MESSAGE value="edited one functionname" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited one functionname" />
+    <MESSAGE value="Updated with new solution name, added 2nd project" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>
