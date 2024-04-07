@@ -55,3 +55,20 @@ static IEnumerable<int> GetNumbersBetween10And20(int[] numbers) => numbers.ToLis
 Console.WriteLine("\n// Oppgave 14");
 Console.WriteLine((string.Join(", ", ReturnBiggestNumber([1, 7, 99, 20, 11, 18, 15, 23, 30]))));
 static int ReturnBiggestNumber(int[] numbers) => numbers.Max();
+
+Console.WriteLine("\n// Oppgave 15");
+Action<string[]> stringContainsA = (strings) => Console.WriteLine(string.Join(", ", strings.Where(str => str.Contains('a'))));
+stringContainsA(["C", "Java", "Blaze", "Flash", "Python"]);
+
+Console.WriteLine("\n// Oppgave 16");
+Console.WriteLine((string.Join(", ", NumberAverageDevidedBy3([1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10]))));
+static double NumberAverageDevidedBy3(int[] numbers) => numbers.ToList().Where(num =>num%3==0).Average();
+
+Console.WriteLine("\n// Oppgave 17");
+Action<string[]> stringLentgthEven = (strings) => Console.WriteLine(string.Join(", ", strings.Where(str => str.Length%2==0)));
+stringLentgthEven(["C", "Java", "Blaze", "Flash", "Python"]);
+
+Console.WriteLine("\n// Oppgave 18");
+Func<int[], bool> trueIfContainsMaxValue = (numbers) => numbers.Count(num => num == numbers.Max()) > 1;
+Console.WriteLine(trueIfContainsMaxValue([0, 1, 2, 3, -5]));
+Console.WriteLine(trueIfContainsMaxValue([0, 1, 2, 3, 5, 1, 5]));
