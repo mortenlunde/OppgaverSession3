@@ -71,4 +71,4 @@ stringLentgthEven(["C", "Java", "Blaze", "Flash", "Python"]);
 Console.WriteLine("\n// Oppgave 18");
 Func<int[], bool> trueIfContainsMaxValue = (numbers) => numbers.Count(num => num == numbers.Max()) > 1;
 Console.WriteLine(trueIfContainsMaxValue([0, 1, 2, 3, -5]));
-Console.WriteLine(trueIfContainsMaxValue([0, 1, 2, 3, 5, 1, 5]));//
+Console.WriteLine(trueIfContainsMaxValue([0, 1, 2, 3, 5, 1, 5]));
